@@ -1,16 +1,18 @@
 <?php
 
-	
-	if(isset($_POST['submit'])){
-
-		$name 		= $_POST['myname'];
+	if(isset($_POST['submit']))
+	{
+		$name = $_POST['myname'];
 		
-		if($name == "" ){
-			echo "null submission...";
-		}else{
-			echo $name;
+		if($name == ""){
+			echo "null submission";
+		}
+		else{
+			echo "Name: ".$name;
 		}
 	}else{
-		echo "invalid request...";
+		echo "Invalid request";
 	}
+
 ?>
+© 2021 GitHub, Inc.
