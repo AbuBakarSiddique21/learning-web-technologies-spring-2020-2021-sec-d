@@ -5,7 +5,7 @@
 
     <legend><b>CHANGE PASSWORD</b></legend>
 
-    <div class="pp">
+    <div class="p2">
     <label>Current Password : </label>
     <input type="password" id="currtpword" name="currtpword" ><br>
 	<br>
@@ -15,14 +15,14 @@
     <label style="color: red;">Retype New Password : </label>
     <input type="password" id="Rnewpword" name="Rnewpword" ><br>
     </div>
-
+	
     <style>
-        .pp label
+        .p2 label
         {
-            width: 170px;
+            width: 150px;
             display: inline-block;
             text-align: left;
-            margin: 3px;
+            margin: 5px;
         }
     </style>
     <hr>

@@ -9,80 +9,82 @@
 		<div class="pp1">
 			<label>Name : </label>
 			<input type="text" id="name" name="name" ><br>
+			
 			<hr>
 			<br>
+			
 			<label>Email :</label>
 			<input type="text" id="email" name="email" ><br>
+			
 			<hr>
 			<br>
+			
 			<label>User Name : </label>
 			<input type="text" id="uname" name="uname" ><br>
+			
 			<hr>
 			<br>
+			
 			<label>Password :  </label>
 			<input type="password" id="pword" name="pword" ><br>
+			
 			<hr>
 			<br>
+			
 			<label>Confirm Password : </label>
 			<input type="password" id="conpword" name="conpword" ><br>
+			
 			<hr>
 			<br>
 		</div>
     <fieldset>
-		<legend style="font-family: Arial, Helvetica, sans-serif;">Gender</legend>
-    <div class="pp2">
-
+		<legend>Gender</legend>
+    <div class="p3">
 		<input type="radio" name="gender" value="Male">
 		<label class="male">Male</label>
 		<input type="radio" name="gender" value="Female">
 		<label class="female">Female</label>
 		<input type="radio" name="gender" value="Other">
 		<label class="other">Other</label>
-
     </fieldset>
 
     <hr>
-
     </div>
-
     <style>
-        .pp label
+        .p3 label
         {
-            width: 100px;
+            width: 150px;
             display: inline-block;
             text-align: left;
-            margin: 3px;
+            margin: 5px;
         }
     </style>
 
 </div>
 
-<div class="pp3">
+<div class="p4">
 
 <fieldset>
-
 <legend>Date Of Birth</legend>
-<div class="pp2">
-<input type="text" id="date" name="date" size="5"> /
-<input type="text" id="month" name="month" size="5"> /
-<input type="text" id="year" name="year" size="6"><i> (dd/mm/yyyy)</i>
+	<div class="p4">
+		<input type="text" id="date" name="date" size="5"> /
+		<input type="text" id="month" name="month" size="5"> /
+		<input type="text" id="year" name="year" size="6"><i> (dd/mm/yyyy)</i>
 </fieldset>
 </div>
 
+<fieldset>
 <style>
-    .pp label
+    .p4 label
     {
-        width: 100px;
+        width: 150px;
         display: inline-block;
         text-align: left;
-        margin: 3px;
+        margin: 5px;
     }
 </style>
-
     <hr>
-
     <input type="submit" name="submit" id="submit" value="Submit">
-    
     <input type="reset" name="reset" id="reset" value="Reset"><br><br>
 </fieldset>
 </form>

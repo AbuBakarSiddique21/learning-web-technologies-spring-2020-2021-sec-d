@@ -5,7 +5,7 @@
 
     <legend><b>LOGIN</b></legend>
 
-    <div class="pp">
+    <div class="p1">
 
     <label>User Name : </label>
     <input type="text" id="name" name="name" ><br><br>
@@ -16,7 +16,7 @@
     </div>
 
     <style>
-        .pp label
+        .p1 label
         {
             width: 200px;
             display: inline-block;
