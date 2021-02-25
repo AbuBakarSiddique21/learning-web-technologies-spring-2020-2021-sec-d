@@ -40,9 +40,7 @@
 			</td>
 	 	</tr>
 		<tr height="40px">
-			<td colspan="3" align="center">
-				copyright@2021
-			</td>
+			<td colspan="3" align="center">copyright@2017</td>
 		</tr>
 	</table>
 </body>
