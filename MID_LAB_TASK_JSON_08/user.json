@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Abu Bakar Siddique",
+        "email": "abs.salim15@gmail.com",
+        "username": "Abubakar",
+        "password": "123",
+        "conPass": "123",
+        "gender": "male",
+        "day": "4",
+        "month": "7",
+        "year": "1999"
+    },
+    {
+        "name": "Abu Bakar",
+        "email": "1993siddique3@gmail.com",
+        "username": "Abu",
+        "password": "456",
+        "conPass": "456",
+        "gender": "male",
+        "day": "10",
+        "month": "7",
+        "year": "1999"
+    },
+    {
+        "name": "Salim",
+        "email": "salim2021@gmail.com",
+        "username": "salim21",
+        "password": "789",
+        "conPass": "789",
+        "gender": "male",
+        "day": "12",
+        "month": "31",
+        "year": "1990"
+    }
+]
