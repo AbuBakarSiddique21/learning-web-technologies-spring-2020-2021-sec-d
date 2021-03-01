@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Page</title>
+</head>
+<body>
+
+	<fieldset>
+	<form method="post" action="regCheck.php">
+		<fieldset width="100%">
+			<legend>REGISTRATION</legend>
+			<table width="50%">
+				<tr>
+					<td>Name:</td>
+					<td><input type="text" name="name" value=""></td>
+				</tr>
+			</table>
+			<hr>
+			<table width="50%">
+				<tr>
+					<td>Email: </td>
+					<td><input type="email" name="email" value=""></td>
+				</tr>
+			</table>
+			<hr>
+			<table width="34%">
+				<tr>
+					<td>User Name: </td>
+					<td><input type="text" name="username" value=""></td>
+				</tr>
+			</table>
+			<hr>
+
+			<table width="37%">
+				<tr>
+					<td>Password:</td>
+					<td><input type="password" name="password" value=""></td>
+				</tr>
+			</table>
+			<hr>
+
+			<table width="25%">
+				<tr >
+					<td>Confirm Password:</td>
+					<td><input type="password" name="confirmPassword" value=""></td>
+				</tr>
+			</table>
+			<hr>
+			<fieldset >
+				<legend>Gender</legend>
+				<input type="radio" name="gender" value="male">Male
+				<input type="radio" name="gender" value="female">Female
+				<input type="radio" name="gender" value="other">Other
+			</fieldset>
+
+			<fieldset>
+				<legend>Date Of Birth</legend>
+					<table>
+						<tr>
+							<td>
+								<input type="text" size="15" name="dd" value=""> /
+							</td>
+							<td>
+								<input type="text" size="15" name="mm" value=""> /
+							</td>
+							<td>
+								<input type="text" size="15" name="yyyy" value="">
+								<i>(dd/mm/yyyy)</i>
+							</td>						
+						</tr>
+					</table>			
+			</fieldset>
+			<table>
+				<tr>
+					<td><input type="submit" size="15" name="submit" value="Submit"></td>
+					<td><input type="reset" size="15" name="reset" value="reset"></td>
+				</tr>
+			</table>		
+		</fieldset>
+	</form>
+</body>
+</html>
