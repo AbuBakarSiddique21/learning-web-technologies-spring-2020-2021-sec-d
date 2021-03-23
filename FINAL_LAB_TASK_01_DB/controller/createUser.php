@@ -31,7 +31,6 @@
 				}else{
 					echo "Db error";
 				}
-
 			}else{
 				echo "password & re-type password mismatch...";
 			}
