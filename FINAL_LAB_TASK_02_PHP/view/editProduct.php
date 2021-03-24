@@ -1,34 +1,42 @@
+<?php
+	require_once('../model/productsModel.php');
+	$id = $_GET['id'];
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Edit Product</title>
 </head>
 <body>
-	<form method="post" action="../controller/addProductCheck.php">
+	<form method="POST" action="../controller/edit.php?id=<?php echo $id; ?>">
 		<fieldset>
 			<legend>EDIT PRODUCT</legend>
-			<table>
-				<tr>
-					<td>Name</td>
-					<td><input type="text" name="name" value=""></td>
-				</tr>
-				<tr>
-					<td>Buying Price</td>
-					<td><input type="number" name="buyingPrice" value=""></td>
-				</tr>
-				<tr>
-					<td>Selling Price</td>
-					<td><input type="number" name="sellingPrice" value=""></td>
-				</tr>
-				<tr>
-					<td><input type="checkbox" name="iteam[]">Display</td>
-				</tr>
-				<tr>
-					<td>
-						<input type="submit" name="save" value="SAVE"> 
-					</td>
-				</tr>
-			</table>
+			
+			<label>Name</label><br>
+			<input type="text" name="name" value="<?php 
+				$row = getProductById($id);
+				echo $row['name'];
+			   ?>" required=""><br>
+			<label>Buying Price</label><br>
+			<input type="text" name="buy" value="<?php 
+				$row = getProductById($id);
+				echo $row['buyingPrice'];
+			   ?>" required=""><br>
+
+			<label>Selling Price</label><br>
+			<input type="text" name="sell" value="<?php 
+				$row = getProductById($id);
+				echo $row['sellingPrice'];
+			   ?>" required="">
+			<hr>
+			<input type="checkbox" name="display" value="<?php 
+				$row = getProductById($id);
+				echo $row['display'];
+			   ?>">Display
+			<hr>
+			<input type="submit" name="submit" value="save">
 		</fieldset>
 	</form>
 </body>
